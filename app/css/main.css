@@ -14,3 +14,25 @@
 .not-padding {
     margin-top: -10px;
 }
+
+.style-footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.style-footer h3{
+    padding-left: 15px;
+}
+
+
+.style-footer ul li {
+   list-style-type: none;
+}
+
+.style-footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}

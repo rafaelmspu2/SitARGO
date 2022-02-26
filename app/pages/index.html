@@ -4,7 +4,7 @@
     <head>
         <title> SitARGO </title>
 
-        <!-- Adicione as TRÊS linhas seguintes em todos os headers das novas páginas -->
+        <!-- Adicione as TRÊS linhas seguintes em todos os headers das novas páginas e as linhas -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js" crossorigin="anonymous"></script>
         <Meta name = "viewport" content = "width = device-width, initial-scale = 1">
@@ -16,30 +16,47 @@
 
     </head>
     <body>
-    <div class="row style-menu">
-        <div class="small-12 colums">
-            <ul class="menu expanded align-left">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="historia.html">Nossa História</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="eventos.html">Eventos</a></li>
-                <li><a href="processo.html">Processo Seletivo</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li>
-                    <a href="index.html" class="not-padding">
-                        <img src="../media/images/logo.png" alt="Engrenagem com sinais vitais e texto escrito ARGO - Inovação em Saúde" width="100" height="50">
-                    </a>
-                </li>
-            </ul>
+        <div class="row style-menu">
+            <div class="small-12 colums">
+                <ul class="menu expanded align-left">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="historia.html">Nossa História</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="processo.html">Processo Seletivo</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li>
+                        <a href="index.html" class="not-padding">
+                            <img src="../media/images/logo.png" alt="Engrenagem com sinais vitais e texto escrito ARGO - Inovação em Saúde" width="100" height="50">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <!-- Initialize Foundation JS -->
-    <script>
-        $(document).ready(function() {
-            $(document).foundation();
-        })
-    </script>
+        <div class="row style-footer">
+            <div class="small-4 colums">
+                <h3> Contato </h3>
+                <ul>
+                    <li><a>E-mail</a></li>
+                    <li><a>LinkedIn</a></li>
+                    <li><a>Facebook</a></li>
+                    <li><a>Instagram</a></li>
+                    <li><a>Medium</a></li>
+                </ul>
+            </div>
+            <div class="small-8 colums">
+                <h3> Como chegar </h3>
+                <div class="map"> Maps aqui em progresso </div>
+            </div>
+        </div>
+
+        <!-- Initialize Foundation JS -->
+        <script>
+            $(document).ready(function() {
+                $(document).foundation();
+            })
+        </script>
 
     </body>
 </html>
