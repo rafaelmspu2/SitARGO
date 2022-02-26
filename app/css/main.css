@@ -1,0 +1,16 @@
+.style-menu {
+    margin-top: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.style-menu a {
+    text-decoration: none;
+    color: #000000;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.not-padding {
+    margin-top: -10px;
+}
